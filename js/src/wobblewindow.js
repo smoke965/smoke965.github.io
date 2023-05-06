@@ -451,8 +451,8 @@
   window.WobbleWindow = WobbleWindow;
 }());
 
-alert('111')
 if (typeof jQuery !== 'undefined') {
+  alert('111')
   (function($) {
     $.fn.wobbleWindow = function(params) {
       var args = arguments;
