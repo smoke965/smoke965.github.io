@@ -450,7 +450,6 @@
   };
   window.WobbleWindow = WobbleWindow;
 }());
-
 if (typeof jQuery !== 'undefined') {
   alert('111')
   (function($) {
